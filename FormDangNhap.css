@@ -1,0 +1,62 @@
+:root {
+    --bold-red: #cd0102;
+    --light-red: #ffcccb;
+    --white: #fff;
+    --red: #f00;
+    --shadow-gray: #888988;
+    --shadow-light-gray: #dedfdf;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--bold-red);
+    font-size: 2.5rem;
+}
+
+.container-form-login {
+    background: url("./hinh/login.jpg") no-repeat bottom right;
+    border: 2px dashed var(--bold-red);
+    border-radius: 16px;
+    width: 50vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.container-form-login .form-login input.textbox {
+    border: 1px dotted #f00;
+    border-radius: 16px;
+    height: 1.5rem;
+    background-color: rgba(256, 0, 0, 0.2);
+    font-size: 1.2rem;
+}
+
+#submit-button {
+    color: var(--white);
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, var(--bold-red), var(--red));
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px var(--shadow-gray), -2px -2px var(--shadow-light-gray);
+}
+
+.container-field {
+    text-align: right;
+    padding-right: 30%;
+}
+
+#txt-welcome {
+    visibility: hidden;
+    color: var(--bold-red);
+}

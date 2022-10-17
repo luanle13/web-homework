@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    color: #2e6493;
+    background-color: #2e6493;
+    margin: 0;
+    padding: 0 20%;
+    font-family: sans-serif;
+}
+
+a {
+    color: #f00;
+}
+
+#logo-freecom {
+    margin: 40px;
+}
+
+#banner-freecom {
+    border: #da5553 solid 2px;
+    margin-bottom: 32px;
+}
+
+.container {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.login-signup {
+    column-count: 2;
+    column-gap: 12px;
+    margin: 40px 0;
+}
+
+.support {
+    font-family: monospace;
+}
+
+.coppy-right {
+    font-family: monospace;
+    color: #000;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: space-around;
+}

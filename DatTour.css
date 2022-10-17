@@ -1,0 +1,70 @@
+:root {
+    --text-blue: #0001fc;
+    --background: #fefecd;
+    --notify-red: #d20023;
+}
+
+h1 {
+    color: var(--text-blue);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    background-color: var(--background);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: var(--text-blue);
+}
+
+table td {
+    border: var(--text-blue) solid 2px;
+    padding: 8px;
+}
+
+input {
+    font-size: 18px;
+}
+
+textarea {
+    width: 380px;
+    height: 80px;
+}
+
+.column-1 {
+    width: 300px;
+}
+
+.column-2 {
+    width: 400px;
+}
+
+.field-long {
+    width: 340px;
+}
+
+.field-medium {
+    width: 240px;
+}
+
+fieldset {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field-short {
+    width: 160px;
+}
+
+.row-button {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: var(--notify-red);
+    font-weight: bold;
+}

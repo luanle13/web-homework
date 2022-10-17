@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Phiếu đăng ký</title>
+    <link rel="stylesheet" href="./PhieuDangKy.css">
+</head>
+
+<body>
+    <h1>Phiếu đăng ký</h1>
+
+    <div class="container">
+        <form action="">
+            <div class="container-field">
+                <p class="label-align-right">Họ tên</p>
+                <div class="field-align-left">
+                    <input id="input-name" type="text" class="text-field field-long">
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Địa chỉ</p>
+                <div class="field-align-left">
+                    <textarea type="text" id="input-address" class="text-field field-big"></textarea>
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Email</p>
+                <div class="field-align-left">
+                    <input type="text" id="input-email" class="text-field field-medium">
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Điện thoại</p>
+                <div class="field-align-left">
+                    <input type="text" id="input-phone" class="text-field field-medium">
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Giới tính</p>
+                <div class="field-align-left">
+                    <input type="radio" id="input-sex-male" class="radio-field" name="input-sex">
+                    <label for="input-sex-male" class="radio-label">Nam</label>
+                    <input type="radio" id="input-sex-female" class="radio-field" name="input-sex">
+                    <label for="input-sex-female" class="radio-label">Nữ</label>
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Nghề nghiệp</p>
+                <div class="field-align-left">
+                    <select id="input-occupations">
+                        <option value="Bác sĩ">Bác sĩ</option>
+                        <option value="Kỹ sư">Kỹ sư</option>
+                        <option value="Giáo viên">Giáo viên</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Chọn sản phẩm</p>
+                <div class="field-align-left">
+                    <select name="input-products" id="input-products">
+                        <option value="Kem đánh răng">Kem đánh răng</option><br>
+                        <option value="Dầu gội">Dầu gội</option><br>
+                        <option value="Sữa tắm">Sữa tắm</option><br>
+                        <option value="Bột giặt">Bột giặt</option><br>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container-field">
+                <p class="label-align-right">Dự đoán số người tham gia</p>
+                <div class="field-align-left">
+                    <input type="text" id="input-participant" class="text-field field-medium">
+                </div>
+            </div>
+
+            <div class="container-buttons">
+                <input class="button" type="submit" value="Đăng ký">
+                <div class="spacing"></div>
+                <input class="button" type="submit" value="Làm lại">
+            </div>
+        </form>
+    </div>
+</body>
