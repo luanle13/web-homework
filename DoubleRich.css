@@ -7,10 +7,11 @@
 
 body {
     background-color: #9b0100;
-    background-image: url(./images/rose.png), url(./images/kim-tea-hee.png), url(./images/nen-hoa-hong.png);
+    background-image: url(./images/rose.png), url(./images/dau-goi-thao-duoc-co-tot-khong.png), url(./images/nen-hoa-hong.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 100px bottom, 20px bottom, right bottom;
     background-attachment: fixed, fixed, fixed;
+    background-size: auto, 30%, auto;
 }
 
 img {
@@ -29,7 +30,7 @@ img {
 
 .container {
     width: 50vw;
-    height: 75vh;
+    height: 80vh;
     margin: 60px auto;
     border: #fff solid 1px;
 }
